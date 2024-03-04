@@ -1,0 +1,24 @@
+{
+
+  "name": "@nagavarshini/medium-commonnew",
+
+  "version": "2.0.0",
+
+  "main": "dist/index.js",
+
+  "dependencies": {
+
+    "@nagavarshini/medium-common": "^1.0.0",
+
+    "@nagavarshini/medium-commonnew": "^2.0.0",
+
+    "tsc": "^2.0.4",
+
+    "typescript": "^5.3.3",
+
+    "zod": "^3.22.4"
+
+  }
+
+}
+
