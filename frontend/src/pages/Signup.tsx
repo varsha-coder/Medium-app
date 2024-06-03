@@ -3,11 +3,13 @@ import { Signupcomp } from "../Components/Signupcomp"
 
 export const Signup =()=>{
     return <div>
-<div className="grid grid-cols-2">
+<div className="grid grid-cols-1 lg:grid-cols-2">
     <div>
-<Signupcomp/>
+<Signupcomp type="signup"/>
     </div>
-    <Quote></Quote>
+   <div className="none lg:block">
+   <Quote></Quote>
+   </div>
 
 </div>
     </div>
